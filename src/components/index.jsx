@@ -7,6 +7,8 @@ class App extends React.Component {
       <div>
         <span>{this.props.count}</span><br />
         <button onClick={() => this.props.incrementClick()}>＊増加＊</button>
+        <button onClick={() => this.props.decrementClick()}>＊減少＊</button>
+        <button onClick={() => this.props.squareClick()}>＊2乗＊</button>
       </div>
     );
   }
