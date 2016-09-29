@@ -1,5 +1,6 @@
 import React from 'react';
-
+// linterを黙らせるには下記の書き方をしてください
+// class App extends React.pureComponent {
 class App extends React.Component {
   render() {
     return (
@@ -12,4 +13,3 @@ class App extends React.Component {
 }
 
 export default App;
-
